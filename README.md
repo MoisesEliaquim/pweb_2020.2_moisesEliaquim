@@ -8,4 +8,6 @@ Código secreto de 01/03/2021 até 08/03/2021
 
 Código secreto, notícias e cores de 08/03/2021 até 22/03/2021
 
-codigoSecreto="1231491490" , Sites de notícias = Terra; CNN Brasil , Cor do menu e botões = #4B0082 - Indigo
+codigoSecreto="1231491490" , Sites de notícias = Terra; CNN Brasil , Cor do menu e botões = #4B0082 - Indigo   - 
+reff: https://www.terra.com.br/
+      https://www.cnnbrasil.com.br/
