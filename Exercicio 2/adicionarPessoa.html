@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta codigoSemana2="1231491490">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/form.css">
     <style>
 		body{
 			text-align: center;
@@ -16,11 +17,44 @@
     <body style="background-color: grey;">
 	<ul>
         <li><a href="index.html">Home</a></li>
+        <hr>
 		<li><a href="noticias.html">Sites de Noticias Terceirizados.</a></li>
+        <hr>
         <li><a href="adicionarPessoa.html"class="active">Acrescentar Individuos SUSPEITOS.</a></li>
         <li><a href="listarPessoas.html">Veja a tabela de SUSPEITOS.</a></li>
+        <hr>
+        <li><a href="sobre.html">Sobre esse lugar estranho.</a></li>
+        <li><a href="contato.html">Fale comigo sou sozinho no mundo.</a></li>
+        <hr>
     </ul>
 
+    <div class="container">
+        <form action="action_page.php">
+          <label for="fname">First Name*</label>
+          <br>
+          <input type="text" id="fname" name="firstname" placeholder="O nome..">
+          <hr>
+          <label for="lname">Last Name*</label>
+          <br>
+          <input type="text" id="lname" name="lastname" placeholder="O ultimo nome..">
+          <hr>
+          <label for="mail">E-Mail*</label>
+          <br>
+          <input type="text" id="mail" name="email" placeholder="O E-mail ...">
+          <hr>
+          <label for="sex">Sexo*</label>
+          <br>
+          <select id="sex" name="Sexo">
+          <option value="Macho">Macho</option>
+          <option value="Femea">Femea</option>
+          <option value="Indefinido">Indefinido</option>
+          </select>
+          <hr>
+          <input type="Acrescentar" value="Acrescentar">
+          <input type="errei"value="Perdao eu errei,Limpe ai.">
+        </form>
+        <p>Campos com * sao obrigatorios, **visse!**</p>
+      </div>
 	<div style="margin-left:25%;padding:1px 16px;height:max-content;">
 </body>
 </html>
