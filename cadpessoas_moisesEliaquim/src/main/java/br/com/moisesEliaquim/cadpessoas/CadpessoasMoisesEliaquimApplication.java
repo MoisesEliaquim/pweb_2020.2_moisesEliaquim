@@ -1,13 +1,13 @@
-package br.com.moises.cadpessoas;
+package br.com.moisesEliaquim.cadpessoas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CadpessoasMoisesApplication {
+public class CadpessoasMoisesEliaquimApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CadpessoasMoisesApplication.class, args);
+		SpringApplication.run(CadpessoasMoisesEliaquimApplication.class, args);
 	}
 
 }
